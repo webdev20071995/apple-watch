@@ -192,7 +192,7 @@ img{
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
-    margin-left: 125px;
+    /* margin-left: 125px; */
     margin-top: 70px;
     list-style: none;
     display: flex;
@@ -238,4 +238,72 @@ img{
     margin-left: 0;
     margin-top: 13px;
     border: 2px solid #EA625C;
+}
+
+/* LATEST */
+.latest {
+    padding-top: 140px;
+    /* padding-bottom: 270px; */
+    background-image: url(/img/watch-in-hand.jpg);
+    background-repeat: no-repeat;
+    background-position: left calc(50% + 300px) bottom;
+}
+
+.latest-cta {
+    width: 100%;
+    max-width: 490px;
+}
+
+.latest-heading {
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 1.2;
+    color:#000;
+}
+
+.latest-text {
+    padding-left: 37px;
+    border-left: 3px solid #888;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color:#777;
+}
+
+
+/* SITE-FOOTER */
+.birnima {
+    background-image: url(../img/runners\ 1.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-cta {
+    width: 100%;
+    max-width: 490px;
+    padding-top: 240px;
+    padding-bottom: 240px;
+    padding-right: 125px;
+}
+
+.footer-cta-wrapper {
+    display: flex;
+    justify-content: right;
+}
+
+.footer-heading {
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color:#fff;
+}
+
+.footer-text {
+    padding-left: 37px;
+    border-left: 3px solid #fff;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color:#ffff;
 }
